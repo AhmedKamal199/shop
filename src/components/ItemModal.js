@@ -30,7 +30,6 @@ const uuid = require('uuid')
    onSubmit = e => {
      e.preventDefault();
      const newItem ={
-       id:uuid.v4(),
        name: this.state.name
       }
       // Add item via addItem action
